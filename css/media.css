@@ -1,0 +1,10 @@
+@media only screen and (max-width : 320px) {
+	.nav_bar_row {
+	display: block;	
+	width: 100%;
+	margin: 0 auto;
+}
+	.nav_bar {
+		display: block;
+	}
+}
