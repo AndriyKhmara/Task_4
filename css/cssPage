@@ -1,0 +1,305 @@
+/*colors
+blue - #4bcaff
+grey - #515f67
+*/
+
+
+@font-face{
+    font-family: 'wf_SegoeUILight';
+    src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot');
+    src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.eot?#iefix') format('embedded-opentype'),
+           url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.woff') format('woff'),
+           url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.ttf') format('truetype'),
+           url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Light/latest.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'wf_SegoeUIBold';
+    src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Bold/latest.eot');
+    src:url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Bold/latest.eot?#iefix') format('embedded-opentype'),
+           url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Bold/latest.woff') format('woff'),
+           url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Bold/latest.ttf') format('truetype'),
+           url('http://i.s-microsoft.com/fonts/Segoe-UI/Cyrillic/Bold/latest.svg#web') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Myriad_Pro_Regular';
+    src:url('../fonts/MyriadProRegular/MyriadProRegular.ttf');
+}
+
+body { 
+	font-family: "wf_SegoeUILight"; 
+	color: #edeeee;
+}
+
+.padding-null {
+	padding: 0;
+}
+
+section.main {
+	background-image: url('../img/background1.png');
+	height: 800px;
+}
+
+div.main-menu {
+	min-height: 150px;	
+}
+.main-text-block {
+	margin-top: 200px;
+}
+
+h1 {
+	display: inline;
+	background: #444e56;
+	opacity: 0.85;
+	line-height: 1.5;
+	text-transform: uppercase;
+
+}
+
+.gray-opacity {
+	background-color: #444e56;
+	opacity: 0.85;
+}
+
+div.nav-menu {
+	height: 100%;	
+	vertical-align: middle;
+	padding-top: 65px;
+}
+div.nav-menu ul {	
+	float: right;	
+	list-style-type: none;
+}
+
+div.nav-menu ul li {
+	padding-left: 35px;
+	display: inline;
+}
+
+div.nav-menu ul li a{
+	font-family: "wf_SegoeUIBold";
+	text-decoration: none;
+	color: #edeeee;
+	text-transform: uppercase;	
+	border: 2px solid rgba(71,81,88,0.85);
+	padding: 4px 10px;	
+}
+
+div.nav-menu ul li a:hover{
+	border: 2px solid #4bcaff;
+	color: #4bcaff;	
+}
+
+div.main-text-block {
+	text-align: center;
+}
+
+div.main-text-block p {
+	display: inline;
+	background-color: rgba(71,81,88,0.85);
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+#services {
+	background-color: #4bcaff;
+	min-height: 400px;
+}
+
+#services h2 {
+	position: relative;
+	padding-top: 75px;
+	padding-bottom: 10px;
+	margin-bottom: 35px;
+}
+
+#services h2:before {
+	content : "";
+	position: absolute;
+	left    : 0;
+	bottom  : 0;
+	height  : 1px;
+	width   : 4%;
+	border-bottom: 2px solid white;
+}
+
+h3 {
+	font-family: 'Myriad_Pro_Regular';
+	text-transform: uppercase;
+	color: white;
+}
+
+section#services p {
+	font-family: 'Myriad_Pro_Regular';
+	color: white;
+	font-size: 0.9em;	
+	line-height: 1.2;
+}
+/*.underline {
+	text-decoration: underline;
+}*/
+/**********************************************************************************/
+#portfolio h2:before {
+	content : "";
+	position: absolute;
+	left    : 0;
+	bottom  : 0;
+	height  : 1px;
+	width   : 4%;
+	border-bottom: 2px solid #515f67;
+}
+
+section#portfolio {
+	min-height: 850px;
+	color: #515f67;
+}
+section#portfolio ul li a{
+	border: 2px solid white;
+	color: #626f76;
+
+}
+#portfolio h2 {
+	float: left;
+	margin: 0;
+	padding-top: 75px;
+}
+#portfolio ul {
+	padding-top: 90px;
+}
+.portfolio-padding-1 {
+	padding-bottom: 90px;
+}
+.portfolio-padding-2 {
+	padding-bottom: 30px;
+}
+div.portfolio-menu ul {	
+	float: right;	
+	list-style-type: none;
+}
+
+div.portfolio-menu ul li {
+	padding-left: 30px;
+	display: inline;
+}
+
+div.portfolio-menu ul li a {
+	font-family: "wf_SegoeUIBold";
+	text-decoration: none;
+	color: #edeeee;
+	text-transform: uppercase;	
+	border: 2px solid rgba(71,81,88,0.85);
+	padding: 4px 10px;	
+}
+div.portfolio-menu ul li:last-child {
+	padding-right: 20px;
+}
+section#portfolio ul li a:hover{	
+	border: 2px solid #4bcaff;
+	color: #4bcaff;	
+}
+
+#portfolio a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*****************************************************************/
+#default{
+	min-height: 475px;
+	background-color: #515f67;
+}
+div.relative {
+	position: relative;
+}
+
+#default h2 {
+	padding-top: 75px;	
+	padding-bottom: 10px;
+}
+
+#default h2:before {
+	content : "";
+	position: absolute;
+	left    : 0;
+	bottom  : 0;
+	height  : 1px;
+	width   : 6%;
+	border-bottom: 2px solid white;
+}
+
+ 
+
+.def-section-text {
+	padding-top: 50px;
+	width: 80%;
+}
+
+#default iframe {
+	margin-top: 75px;
+}
+
+#default button {
+	background: transparent;
+	color: #353f46;
+	border: 2px solid #353f46;
+	padding: 5px 15px;
+	font-weight: 700;
+}
+#default button:hover {
+	color: white;
+	border: 2px solid white;
+
+}
+
+
+.img-test {
+	max-width: 270px;
+	max-height: 270px;
+
+}
+
+.img-test img {
+	position: relative;
+	z-index: -1;
+
+}
+
+.img-test:hover {
+	/*background: rgba(53,63,71,0.9);	*/
+	
+	background: url('../img/portfolio_hover.png');
+}
+/*******************************************************/
+
+#contact {
+	background: url('../img/contact_bg.png');
+	min-height: 810px;
+}
+
+#contact h2 {
+	position: relative;
+	padding-top: 75px;	
+	padding-bottom: 10px;
+}
+
+#contact h2:before {
+	content : "";
+	position: absolute;
+	left    : 0;
+	bottom  : 0;
+	height  : 1px;
+	width   : 4%;
+	border-bottom: 2px solid white;
+}
+
+#contact form input {
+	background: transparent;
+	border: 2px solid white;
+}
